@@ -5,8 +5,6 @@ Versione 1.0 : semplice calcolo numerico con numeri piccoli
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Invio with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
         System.out.printf("PROGRAMMA PER DESCRIVERE IL FUNZIONAMENTO DELL'RSA");
 
         Scanner input;
@@ -65,5 +63,5 @@ public class Main {
         System.out.println("Messaggio (numero) decriptato : "+m1);
 
         System.out.println("FINE PROGRAMMA RSA" );
-        } // end of main()
-    } // end of Main()
+        }
+    }
