@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Cesare-chiave-singola.iml" filepath="$PROJECT_DIR$/Cesare-chiave-singola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CifrarioDiCesare.iml" filepath="$PROJECT_DIR$/CifrarioDiCesare.iml" />
     </modules>
   </component>
 </project>
