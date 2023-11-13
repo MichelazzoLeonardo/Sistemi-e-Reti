@@ -12,14 +12,6 @@ public class CifrarioDiCesare {
         this.chiave = key;
     }
 
-    public String getMessaggio() {
-        return messaggio;
-    }
-
-    public int getChiave() {
-        return chiave;
-    }
-
     public String CriptaMessaggio() {
         String risultato = "";
         for (char c : messaggio.toCharArray())
