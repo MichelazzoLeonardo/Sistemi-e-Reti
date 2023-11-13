@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a3cbe3-fe66-4e5c-a265-44eaea1abd94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/CaesarCipher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/VigenereCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/VigenereCipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cifrario/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cifrario/CifrarioDiCesare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cifrario/VigenereCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cifrario/VigenereCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cifrario/CifrarioDiCesare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cifrario/CifrarioDiCesare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +58,16 @@
       <updated>1699716829312</updated>
       <workItem from="1699716830179" duration="7083000" />
       <workItem from="1699858165979" duration="32000" />
-      <workItem from="1699858373419" duration="2356000" />
+      <workItem from="1699858373419" duration="2764000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

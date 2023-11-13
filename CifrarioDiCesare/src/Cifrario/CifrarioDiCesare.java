@@ -38,7 +38,7 @@ public class CifrarioDiCesare {
         char risultato;
         int ascii;
 
-        ascii = (int) c;
+        ascii = c;
         ascii = ascii + key;
 
         while (ascii > 122)
@@ -52,7 +52,7 @@ public class CifrarioDiCesare {
         char risultato;
         int ascii;
 
-        ascii = (int) c;
+        ascii = c;
         ascii = ascii - key;
 
         while (ascii < 32)
