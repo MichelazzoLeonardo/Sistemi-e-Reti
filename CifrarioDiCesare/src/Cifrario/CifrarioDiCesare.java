@@ -30,7 +30,7 @@ public class CifrarioDiCesare {
     public String DecriptaMessaggio() {
         String risultato = "";
         for (char c : messaggio.toCharArray())
-            risultato += Decriptacarattere(c, chiave);
+            risultato += DecriptaCarattere(c, chiave);
         return risultato;
     }
 
@@ -48,7 +48,7 @@ public class CifrarioDiCesare {
         return risultato;
     }
 
-    protected static char Decriptacarattere(char c, int key) {
+    protected static char DecriptaCarattere(char c, int key) {
         char risultato;
         int ascii;
 

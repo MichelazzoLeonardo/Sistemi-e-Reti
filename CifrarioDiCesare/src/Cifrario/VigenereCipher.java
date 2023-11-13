@@ -30,7 +30,7 @@ public class VigenereCipher extends CifrarioDiCesare {
     public String DecriptaMessaggio() {
         String result = "";
         for (int i = 0; i < messaggio.length(); i++)
-            result += Decriptacarattere(messaggio.charAt(i), numericKey[i%numericKey.length]);
+            result += DecriptaCarattere(messaggio.charAt(i), numericKey[i%numericKey.length]);
         return result;
     }
 
