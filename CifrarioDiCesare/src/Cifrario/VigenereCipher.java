@@ -2,12 +2,12 @@ package Cifrario;
 
 import java.util.Arrays;
 
-public class VigenereCipher extends CaesarCipher {
+public class VigenereCipher extends CifrarioDiCesare {
     String alphabeticKey;
     int[] numericKey;
 
     public VigenereCipher(String message, String key) {
-        this.message = message;
+        this.messaggio = message;
         this.alphabeticKey = key;
         this.numericKey=TranslateKey();
     }
@@ -20,17 +20,17 @@ public class VigenereCipher extends CaesarCipher {
         return numericKey;
     }
 
-    public String CryptMessage() {
+    public String CriptaMessaggio() {
         String result = "";
-        for (int i = 0; i < message.length(); i++)
-            result += CryptChar(message.charAt(i), numericKey[i%numericKey.length]);
+        for (int i = 0; i < messaggio.length(); i++)
+            result += CriptaCarattere(messaggio.charAt(i), numericKey[i%numericKey.length]);
         return result;
     }
 
-    public String DecryptMessage() {
+    public String DecriptaMessaggio() {
         String result = "";
-        for (int i = 0; i < message.length(); i++)
-            result += DecryptChar(message.charAt(i), numericKey[i%numericKey.length]);
+        for (int i = 0; i < messaggio.length(); i++)
+            result += Decriptacarattere(messaggio.charAt(i), numericKey[i%numericKey.length]);
         return result;
     }
 
@@ -43,7 +43,7 @@ public class VigenereCipher extends CaesarCipher {
 
     @Override
     public String toString() {
-        return "message: " + message + "\n" +
+        return "message: " + messaggio + "\n" +
                 "alphabetic key=" + alphabeticKey + "\n" +
                 "numeric key=" + Arrays.toString(numericKey) + "\n";
     }

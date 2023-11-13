@@ -1,14 +1,22 @@
-import Cifrario.CaesarCipher;
-import Cifrario.VigenereCipher;
+import Cifrario.CifrarioDiCesare;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        CaesarCipher cipher=new CaesarCipher("AAAAAAAAAA",6);
-        System.out.println("CAESAR CIPHER\n" + cipher.toString() +
-                "crypted message: " + cipher.CryptMessage() + "\n");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("CIFRARIO DI CESARE:");
+        System.out.print("Inserisci il messaggio: ");
+        String messaggio = scanner.nextLine();
+        System.out.print("Inserisci la chiave: ");
+        int chiave = scanner.nextInt();
 
-        VigenereCipher vigenereCipher=new VigenereCipher("AAAAAAAAAA", "hjdtchnwlp");
-        System.out.println("VIGENERE CIPHER\n" + vigenereCipher.toString() +
-                "crypted message: " + vigenereCipher.CryptMessage() + "\n");
+        CifrarioDiCesare cifrario = new CifrarioDiCesare(messaggio, chiave);
+        String messaggioCriptato = cifrario.CriptaMessaggio();
+        System.out.println("messaggio criptato: " + messaggioCriptato);
+
+        cifrario = new CifrarioDiCesare(messaggioCriptato, chiave);
+        String messaggioDecriptato = cifrario.DecriptaMessaggio();
+        System.out.println("messaggio decriptato: " + messaggioDecriptato);
     }
 }

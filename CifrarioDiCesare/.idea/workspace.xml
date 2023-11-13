@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9a3cbe3-fe66-4e5c-a265-44eaea1abd94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cifrario/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cifrario/VigenereCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cifrario/ascii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cesare-chiave-singola.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CifrarioDiCesare.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/CaesarCipher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/VigenereCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Cifrario/VigenereCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CifrarioDiCesare/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cifrario/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cifrario/CifrarioDiCesare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cifrario/VigenereCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cifrario/VigenereCipher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Y2HbeyDxyWuFTcS80hO4hh18pY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,6 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Java",
     "node.js.detected.package.eslint": "true",
@@ -52,21 +56,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="CifrarioDiCesare" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="CifrarioDiCesare" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699716829312</updated>
       <workItem from="1699716830179" duration="7083000" />
+      <workItem from="1699858165979" duration="32000" />
+      <workItem from="1699858373419" duration="2356000" />
     </task>
     <servers />
   </component>
